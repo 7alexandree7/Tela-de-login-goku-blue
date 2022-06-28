@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   
+    background-color: #00000050;
+    background-image: url(../img/unknown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.img-box {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../img/anime_android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-g2alz-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+
+
+.conteudo {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    width: 50vw;
+    height: 100vh;
+    background-color: #4b648510;
+    padding: 2rem 2.5rem;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login h2 {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 8px;        
+}
+
+.border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.733);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+   
+}
+
+.login label {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.login input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.801);
+    margin-bottom: 2.8rem;
+    outline: none;
+    transition: all 500ms ease;
+}
+
+.login input:hover {
+    border-bottom-color: #c13584;
+}
+
+
+
+
+.links-box {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    margin-bottom: 2.5rem;
+}
+
+.links-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c13584;
+}
+
+.login button {
+    margin-bottom: 0.4rem;
+    height: 3rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 4px;
+    border: none;
+   
+}
+
+.social {
+    margin-top: 50px;
+}
+
+span {
+    margin-left: 1rem;
+}
+
+.btn {
+    background-color: rgba(25, 199, 230, 0.356);
+    transition: all 500ms ease;
+    font-weight: bold;
+}
+
+.btn:hover {   
+    background-color:   rgba(25, 199, 230, 0.205);
+}
+
+.facebook {
+    background-color: #3b5998;
+    transition: all 500ms ease-in-out;
+}
+
+.facebook:hover {
+    background-color: #4d6fb9;
+}
+
+.instagran {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition: all 500ms ease
+}
+
+.instagran:hover {
+    background: linear-gradient(45deg, #405de6,  #833ab4, #c13584,  #fd1d1d);
+}
+
